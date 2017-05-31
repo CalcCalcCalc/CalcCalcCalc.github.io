@@ -322,6 +322,22 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+.btn-outline-alt {
+  color: black;
+  font-size: 20px;
+  border: solid 2px black;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline-alt:hover,
+.btn-outline-alt:focus,
+.btn-outline-alt:active,
+.btn-outline-alt.active {
+  color: white;
+  background: #2C3E50;
+  border: solid 2px #2C3E50;
+}
 .btn-primary {
   color: white;
   background-color: #2C3E50;
